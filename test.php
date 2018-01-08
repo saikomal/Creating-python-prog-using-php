@@ -12,7 +12,7 @@ fclose($myfile);
 
 $myfile = fopen("sol1.py", "a");
  $i = 0;
-$txt = "\tos.system('python /var/www/html/Ippython/".$labname.".py')";
+$txt = "\n\tos.system('python /var/www/html/Ippython/".$labname.".py')";
 fwrite($myfile, $txt);
 fclose($myfile);
 }

@@ -18,4 +18,7 @@ while True:
     os.system('python /var/www/html/Ippython/sol17.py')
     os.system('python /var/www/html/Ippython/sol18.py')
 
-	os.system('python /var/www/html/Ippython/kasa.py')
+	os.system('python /var/www/html/Ippython/kasa.py')	
+
+	os.system('python /var/www/html/Ippython/ask.py')
+	os.system('python /var/www/html/Ippython/odslkoask.py')
